@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="tufte.css">
+  <meta charset="utf-8"/>
+  <title>Tufte CSS</title>
+  <link rel="stylesheet" href="tufte.css"/>
+  <link rel="stylesheet" href="latex.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <h1>Howdy, stranger...</h1>
-    <p>All your base are belong to us!</p>
-
-    <p>Theme is <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a>.</p>
-
+  <article>
+    <h1 id="tufte-css">Musings and Pontifications</h1>
+    <p class="subtitle">Rolf Ragnarsson</p>
+    <section>
+      <p>All your base are belong to us!<label for="sn-base" class="margin-toggle sidenote-number"></label><input type="checkbox" id="sn-base" class="margin-toggle"/><span class="sidenote">Cf. <a href="https://en.wikipedia.org/wiki/All_your_base_are_belong_to_us">Wikipedia entry</a>.</span></p>
+      <figure>
+        <label for="mn-test" class="margin-toggle">&#8853;</label><input type="checkbox" id="mn-test" class="margin-toggle"/><span class="marginnote">Figure caption.</span>
+        <img src="https://upload.wikimedia.org/wikipedia/en/0/03/Aybabtu.png" alt="Alt text" />
+      </figure>
+      <pre><code>
+#!/bin/sh
+# This is a comment.
+echo "Hello, world!"
+      </code></pre>
+      <p></p>
+    </section>
+    <section>
+      <p>Theme is <a href="https://edwardtufte.github.io/tufte-css/">tufte-css</a>.</p>
+    </section>
+  </article>
 </body>
 </html>
