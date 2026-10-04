@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  {% include head.html %}
+
+  <body>
+    <header>
+      <h1><a href="/">{{ site.title }}</a></h1>
+      <p class="subtitle">{{ site.description }}</p>
+    </header>
+
+    <section id="about">
+      {% capture about %}{% include about.md %}{% endcapture %}
+      {{ about | markdownify }}
+    </section>
+
+    <hr />
+
+    <main>
+      {{ content }}
+    </main>
+
+    <footer>
+      <p><small>Copyright &copy; {{ site.time | date: '%Y' }}. All rights reserved.</small></p>
+    </footer>
+  </body>
+</html>

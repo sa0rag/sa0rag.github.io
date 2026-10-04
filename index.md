@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Setup guide
+title: Home
 ---
 
 # A page
