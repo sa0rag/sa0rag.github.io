@@ -3,4 +3,5 @@ layout: default
 title: Setup guide
 --
 
-test of page for sa0rag.
+# A page
+Test of page for sa0rag.
