@@ -5,9 +5,9 @@ highlighter: rouge
 permalink: pretty
 
 # Setup
-title: 'Rolf'
+title: 'SA0RAG's pages'
 tagline: 'Random noises'
-description: '... I hail from Uppsala.'
+description: 'Ham, hailing from Uppsala. Nowadays Stockholm and Linköping'
 url: https://sa0rag.gihub.io
 baseurl: /
 include: ['.well-known']
